@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HALLET - Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light dark; --bg:#ffffff; --fg:#1f2933; --muted:#52606d; --line:#d9e2ec; --link:#1d5fbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181d; --fg:#e4e7eb; --muted:#9aa5b1; --line:#323f4b; --link:#7cb0ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 56px; }
+  h1 { font-size:1.6rem; line-height:1.25; margin:0 0 8px; }
+  h2 { font-size:1.1rem; margin:28px 0 6px; }
+  p, ul { margin:8px 0; } ul { padding-left:22px; }
+  a { color:var(--link); overflow-wrap:anywhere; }
+  .meta { color:var(--muted); font-size:.92rem; }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Gizlilik Politikası: HALLET</h1>
+<p class="meta">Son güncelleme: 26 Kasım 2026<br>
+Uygulama: HALLET: Birlikte Planla (com.techmazlum.hallet)<br>
+Geliştirici: ZindeRota (TechMazlum)<br>
+İletişim: <a href="mailto:techmazlum@gmail.com">techmazlum@gmail.com</a> · <a href="#en">English</a></p>
+
+<p>HALLET; aile, arkadaş ve iş yeri gruplarında konuşmayı plana ve sahiplenilen göreve dönüştüren bir uygulamadır. Veriler yalnız TechMazlum'un kendi kiraladığı sunucuda tutulur; üçüncü taraf veritabanı ya da analitik hizmeti kullanılmaz.</p>
+
+<h2>1. Hesap</h2>
+<p>Hesap açmak için yalnız bir <strong>görünen ad</strong> istenir. Telefon numarası, e-posta, rehber, konum, kamera ya da fotoğraf erişimi istenmez. Cihazına rastgele bir oturum anahtarı verilir (sunucuda yalnız şifrelenmiş özeti tutulur). Telefon değiştirdiğinde hesabına dönmek için isteğe bağlı bir kurtarma kodu oluşturabilirsin (sunucuda yalnız özeti tutulur).</p>
+
+<h2>2. Gruplarda paylaştıkların</h2>
+<ul>
+  <li>Oluşturduğun ve katıldığın gruplar, roller (sahip/yönetici/üye), davet kodları.</li>
+  <li>Grup sohbet mesajları ve yanıtlar.</li>
+  <li>Planlar (başlık, tarih, isteğe bağlı yer ve bütçe), katılım yanıtları, malzeme ve görev kayıtları, kimin neyi üstlendiği/tamamladığı.</li>
+  <li>Masraf kayıtları: yalnız tutar, not ve kişi adı. <strong>Banka hesabı, kart ya da ödeme bilgisi tutulmaz; HALLET para toplamaz, aktarmaz, ödeme almaz.</strong></li>
+  <li>Uygulama içi bildirimler, bildirdiğin mesajlar ve engellediğin kişiler.</li>
+</ul>
+<p>Bu içerikleri yalnız ilgili grubun üyeleri görür; yetki kontrolleri sunucuda yapılır. Gruba yeni katılan üye grubun geçmiş içeriğini görebilir; çıkarılan ya da ayrılan üye göremez. Mesajlar aktarım sırasında HTTPS/TLS ile şifrelenir; uçtan uca şifreleme <strong>yoktur</strong>. Bildirilen mesajları grup yöneticileri ve gerektiğinde HALLET ekibi inceler.</p>
+
+<h2>3. Kendi sunucumuza giden kullanım bilgileri</h2>
+<p>Uygulamayı geliştirmek ve sorunları görmek için TechMazlum'un kendi yönetim paneline şunlar gönderilir: rastgele kurulum kimliği (reklam kimliği değildir), uygulama ve Android sürümü, dil, görünen adın, açık olan ekranın adı ve süresi, oturum başlangıç/bitiş zamanları ve uygulama içi işlem adları (ör. "grup oluşturdu", "görev üstlendi"). Mesaj içerikleri ve masraf tutarları bu bilgilere eklenmez. Bu bilgiler satılmaz, üçüncü taraflarla paylaşılmaz.</p>
+
+<h2>4. Reklamlar</h2>
+<p>Ücretsiz sürümde ekranın altında Google AdMob ile küçük bir banner reklam gösterilir. AdMob reklam kimliği, IP adresi ve cihaz bilgisi gibi verileri Google'ın politikasına göre işleyebilir: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>. Avrupa Ekonomik Alanı ve Birleşik Krallık'ta önce izin formu gösterilir; tercihini Profil → Reklam gizlilik seçeneklerinden değiştirebilirsin.</p>
+
+<h2>5. Saklama ve silme</h2>
+<p>Veriler hesabın açık olduğu sürece saklanır. Uygulamada <strong>Profil → Hesabı sil</strong> ile hesabını hemen silebilirsin: mesajların, bildirimlerin, oturumların ve kurtarma kodun silinir, gruplardan çıkarılırsın; sahibi olduğun gruplar başka bir üyeye devredilir (tek üyeli gruplar silinir); adın "Silinmiş üye" olarak değiştirilir ve grubun hesabı bozulmasın diye masraf kayıtları bu adla kalır. Günlük veritabanı yedekleri en geç 14 gün içinde kendiliğinden silinir. Uygulamaya erişemiyorsan <a href="mailto:techmazlum@gmail.com?subject=HALLET%20hesap%20silme">techmazlum@gmail.com</a> adresine uygulamadaki adını ve grup adını yazarak silme isteyebilirsin; istek 30 gün içinde yerine getirilir.</p>
+
+<h2>6. Çocuklar</h2>
+<p>HALLET 13 yaşından küçük çocuklara yönelik değildir.</p>
+
+<h2>7. Hakların (KVKK)</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında verilerine erişme, düzeltilmesini, silinmesini isteme ve işlenmesine itiraz etme haklarına sahipsin. Başvuru: <a href="mailto:techmazlum@gmail.com">techmazlum@gmail.com</a>.</p>
+
+<hr>
+<h1 id="en">Privacy Policy: HALLET</h1>
+<p class="meta">Last updated: 26 November 2026 · App: HALLET (com.techmazlum.hallet) · Developer: ZindeRota (TechMazlum) · Contact: <a href="mailto:techmazlum@gmail.com">techmazlum@gmail.com</a></p>
+<p>HALLET turns group conversations into plans and claimed tasks. Data is stored only on TechMazlum's own rented server; no third-party database or analytics service is used.</p>
+<p><strong>Account:</strong> only a display name. No phone number, e-mail, contacts, location, camera or photo access. A random session token is stored on your device (the server keeps only a hash). An optional recovery code lets you restore your account on a new phone.</p>
+<p><strong>Group content:</strong> groups and roles, invite codes, chat messages, plans, RSVPs, items/tasks and who claimed/completed them, expense records (amount, note, person — no bank or card data; HALLET does not collect, transfer or process money), in-app notifications, reports and blocks. Visible only to members of that group; access is enforced on the server. New members can see the group's history; removed members cannot. Encrypted in transit (HTTPS/TLS); not end-to-end encrypted.</p>
+<p><strong>Usage data</strong> sent to our own admin panel: random install ID, app/Android version, language, display name, current screen and time spent, session times and in-app action names. Message contents and amounts are not included. Not sold or shared.</p>
+<p><strong>Ads:</strong> a small Google AdMob banner; AdMob may process the advertising ID, IP address and device information (<a href="https://policies.google.com/technologies/ads">Google policy</a>). A consent form is shown in the EEA/UK.</p>
+<p><strong>Deletion:</strong> Profile → Delete account deletes your messages, notifications, sessions and recovery code immediately and removes you from groups; expense records remain under the name "Deleted member". Daily backups are deleted within 14 days. You can also request deletion at <a href="mailto:techmazlum@gmail.com">techmazlum@gmail.com</a>. Not directed to children under 13.</p>
+</main>
+</body>
+</html>
